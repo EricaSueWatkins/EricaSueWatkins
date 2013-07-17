@@ -11,7 +11,7 @@ section
 }
 
 header {
-	margin: 0 1em 0 1em;
+	margin: 0;
 	padding: 1em 0 3em 0;
 	background-image: url(Header.jpg);
 	background-position: center;
@@ -30,24 +30,25 @@ h1 {
 	font-size: 42px;
 }
 
-menu {
-	text-align: center;
-}
-
 nav {
 	position: relative;
 	text-align: center;
 }
 
-nav li
+nav ul {
+    margin:0;
+    padding:0;
+	text-align: center;
+}
+
+nav ul li
 {
   position: relative;
   background-color: #DCDAC2;
   color: #CD49FB;
   font-size: 16px;
   display:inline-block;
-  margin: 0 1em 0 0;
-  padding: 0.3em 0;
+  margin: 0 0.5em;
   text-align: center;
   width: 5em;
   display: inline;
