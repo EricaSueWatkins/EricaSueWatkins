@@ -1,0 +1,88 @@
+article,
+aside,
+footer, 
+header,
+hgroup,
+menu,
+nav,
+section
+{
+	display:block;
+}
+
+header {
+	margin: 0 1em 0 1em;
+	padding: 1em 0 3em 0;
+	background-image: url(Header.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	text-align: center;
+	}
+
+h1 {
+	position: relative;
+	font-family: 'Denk One', sans-serif;
+	color: #CD49FB;
+	margin: 0 0.5em 0 0.5em;
+	padding: 0.3em 1em 0 1em;
+	text-align: center;
+	font-size: 42px;
+}
+
+menu {
+	text-align: center;
+}
+
+nav {
+	position: relative;
+	text-align: center;
+}
+
+nav li
+{
+  position: relative;
+  background-color: #DCDAC2;
+  color: #CD49FB;
+  font-size: 16px;
+  display:inline-block;
+  margin: 0 1em 0 0;
+  padding: 0.3em 0;
+  text-align: center;
+  width: 5em;
+  display: inline;
+}
+
+a {
+	color: #8b13d7;
+}
+
+a.visited {
+	color: #CD49FB;
+}
+
+body {
+	font-family: 'Expletus Sans', cursive;
+	font-size: 16px;
+	background-repeat: repeat;
+	background: #DCDAC2;
+	padding: 1.5em;
+	}
+
+article {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	background-repeat: repeat;
+	background: #DCDAC2;
+	padding: 0 1em 2em;
+}
+
+footer {
+	font-family: 'Acme', sans-serif;
+	font-size: 12px;
+	padding: 2em;
+	background-repeat: repeat;
+	background: #DCDAC2;
+	padding: 0 0 100em 0;
+	text-align: right;
+}
